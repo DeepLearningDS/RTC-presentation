@@ -20,4 +20,4 @@ $$
 * a random noise $A^0_t$
 * the **flow’s velocity field** $v_\pi$
 * $\tau \in [0,1)$ denotes a flow matching timestep
-* $n$ ndetermines the number of denoising steps
+* $n$ determines the number of denoising steps
