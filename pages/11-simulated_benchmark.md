@@ -70,7 +70,7 @@ title: q1q2
 $clicks < 1 ? 'opacity-0 pointer-events-none' : 'opacity-100',
 $clicks === 2 ? 'scale-[1.35] z-50' : 'scale-100 z-20'
 ]">
-<img src="/img/figure5.png"
+<img src="../public/img/figure5.png"
 class="w-full object-contain rounded-xl border border-gray-200 dark:border-gray-700 transition-shadow duration-700"
 :class="$clicks === 2 ? 'shadow-2xl' : 'shadow-lg'"/>
 <p class="mt-2 text-xs text-center text-gray-400 italic">Fig. 5 — Black et al. (2025)</p>
@@ -85,7 +85,7 @@ class="w-full object-contain rounded-xl border border-gray-200 dark:border-gray-
 <p class="text-transparent text-lg mb-4 pointer-events-none select-none" aria-hidden="true">
 <strong>Spacer</strong>
 </p>
-<video src="/animation/combined_wide11.mp4" autoplay loop muted playsinline
+<video src="../public/animation/combined_wide11.mp4" autoplay loop muted playsinline
 class="w-7.1/8 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700"/>
 <p class="mt-2 text-xs text-center text-gray-400 italic">Kinetix — 12 dynamic tasks</p>
 </div>
