@@ -53,7 +53,7 @@ $$
 
 </div>
 <div v-if="activeTab === 'animation'" class="animate-fade-in animate-duration-300 mt-4">
-<video :src="'/animation/flow-matching.mov'" autoplay loop muted playsinline class="w-full rounded-lg shadow-md"></video>
+<video src="/animation/flow-matching.mov" autoplay loop muted playsinline class="w-full rounded-lg shadow-md"></video>
 </div>
 
 </div>

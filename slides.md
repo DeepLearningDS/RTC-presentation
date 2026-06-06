@@ -4,7 +4,6 @@ title: Real-Time Execution of Action Chunking Flow Policies
 layout: cover
 color: amber-light
 transition: slide-left
-base: /RTC-presentation/
 ---
 
 # Real-Time Execution of Action Chunking Flow Policies

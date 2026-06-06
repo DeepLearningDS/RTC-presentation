@@ -77,7 +77,7 @@ $clicks < 5 ? 'opacity-0 pointer-events-none' : 'opacity-100',
 $clicks === 6 ? 'scale-[1.35] z-50' : 'scale-100 z-20'
 ]">
 <img 
-:src="'/img/results.png'" 
+src="/img/results.png" 
 alt="Grafico benchmark" 
 class="w-full aspect-video object-cover rounded-xl border border-gray-200 dark:border-gray-700 transition-shadow duration-700"
 :class="$clicks === 6 ? 'shadow-2xl' : 'shadow-lg'"

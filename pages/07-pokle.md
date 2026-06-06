@@ -28,14 +28,14 @@ class="grid gap-4 items-start transition-all duration-500">
 :class="$clicks === 3 ? 'opacity-0 h-0 overflow-hidden' : 'opacity-100'"
 class="flex flex-col gap-1 items-center transition-all duration-500">
 <p class="text-xs font-semibold text-center text-gray-500 uppercase tracking-wide">Image inpainting</p>
-<img :src="'/img/inpainting.png'" class="w-3/4 max-h-40 object-contain rounded-lg"/>
+<img src="/img/inpainting.png" class="w-3/4 max-h-40 object-contain rounded-lg"/>
 <p class="text-xs text-center text-gray-400 italic">Fig. 1(c) — Pokle et al. [48]</p>
 </div>
 <div v-click
 :class="$clicks === 3 ? 'w-full' : ''"
 class="flex flex-col gap-1 items-center transition-all duration-500">
 <p class="text-xs font-semibold text-center text-gray-500 uppercase tracking-wide">Action inpainting (RTC)</p>
-<img :src="'/img/figure3.png'"
+<img src="/img/figure3.png"
 :class="$clicks === 3 ? 'max-h-64 w-full' : 'max-h-32 w-full'"
 class="object-contain rounded-lg transition-all duration-500"/>
 <p class="text-xs text-center text-gray-400 italic">Fig. 3 — Black et al. (2025)</p>
