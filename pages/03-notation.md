@@ -84,7 +84,7 @@ $\textcolor{#92400e}{s}$ is the *execution horizon* (e.g., $s \approx \textcolor
 </div>
 
 <div v-click class="transition-opacity duration-500 flex items-center justify-center w-full mt-10 text-[#92400e] text-lg">
-  <span class="font-semibold mr-3">Consistency</span>
+  <span class="font-semibold mr-3">Reactivity</span>
   <div class="relative flex items-center flex-grow">
     <mdi-arrow-left class="text-2xl" />
     <div class="h-[2px] bg-[#92400e] flex-grow -mx-1"></div>
@@ -93,5 +93,5 @@ $\textcolor{#92400e}{s}$ is the *execution horizon* (e.g., $s \approx \textcolor
       s
     </div>
   </div>
-  <span class="font-semibold ml-3">Reactivity</span>
+  <span class="font-semibold ml-3">Consistency</span>
 </div>
