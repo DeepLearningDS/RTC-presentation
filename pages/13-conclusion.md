@@ -34,7 +34,7 @@ title: strengths-limitations
 
 * **Diffusion/flow only**: cannot applicable to autoregressive token-based VLAs
 * **n = 5**: the choice of denoising steps is never explicitly justified
-* $d = \max(Q)$ in the **Inference Loop** can lead to problems when the estimated delay is far from the effective delay (but solved with $\beta = 5$)
+* $d = \max(Q)$ in the **Inference Loop** can lead to problems when the estimated delay is far from the effective delay
 
 </div>
 </div>
